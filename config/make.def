@@ -77,9 +77,9 @@ FLINKFLAGS =
 #---------------------------------------------------------------------------
 # This is the C compiler used for OpenMP programs
 #---------------------------------------------------------------------------
-CC = clang
+CC = ${MY_CC}
 # This links C programs; usually the same as ${CC}
-CLINK	= clang
+CLINK	= ${MY_CC}
 
 #---------------------------------------------------------------------------
 # These macros are passed to the linker 
